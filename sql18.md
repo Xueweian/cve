@@ -7,7 +7,7 @@ Doctor/chat.php and name parameters
 ## describe
 There are unrestricted SQL injection attacks in the E-Health Care System. Controllable parameters: name .
 
-In chat.php.php, there are no filter parameters, and there is no restriction on the execution of concatenated SQL statements, resulting in SQL injection vulnerabilities. You can obtain sensitive information from the database
+In chat.php, there are no filter parameters, and there is no restriction on the execution of concatenated SQL statements, resulting in SQL injection vulnerabilities. You can obtain sensitive information from the database
 
 ## code analysis
 The $name parameters of the chat.php are not filtered and concatenated into the SQL statement for execution when attacker is not logining.
